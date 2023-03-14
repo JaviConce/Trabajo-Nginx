@@ -1,0 +1,21 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name localhost;
+ 
+    root /var/www/tutorial;
+    index index.html;
+   
+    location / {
+try_files $uri $uri/ =404;
+    }
+
+ 
+}
+
+upstream backend {
+    server localhost:8080;
+    server localhost:8081;
+    least_conn;
+   
+}

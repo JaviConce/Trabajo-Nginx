@@ -1,0 +1,11 @@
+upstream backend3 {
+    server localhost:8082;
+}
+
+server {
+listen 8082;
+location / {
+               try_files $uri $uri/ =404;
+       }
+
+}
