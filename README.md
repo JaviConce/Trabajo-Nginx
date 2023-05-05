@@ -16,6 +16,7 @@
 ## Resetear ngrinx sin interrupciones (sin parar el servicio ngrinx): 
 - sudo nginx -s reload
 
+
 # Para la Demo
 
 ## Archivos para logs (no es necesario para el funcionamiento)
@@ -60,6 +61,7 @@ root /var/www/backend1;
 Indicando el directorio y el archivo, respectivamente.
 
 También puedes cambiar los html existentes.
+
 
 # Notificaciónes:
 Junto a los logs, en la carpeta "nginx" se encuentra un script de python llamado listener_notify.py.
