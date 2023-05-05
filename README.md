@@ -16,7 +16,7 @@
 ## Resetear ngrinx sin interrupciones (sin parar el servicio ngrinx): 
 - sudo nginx -s reload
 
-#Para la Demo
+# Para la Demo
 
 ## Archivos para logs (no es necesario para el funcionamiento)
 - copiar contenido de la carpeta nginx en /var/log/nginx
