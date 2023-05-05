@@ -51,7 +51,9 @@ El modo de balanceo por defecto es round robin. Para cambiarlo, modificar en el 
 Frontend en el puerto 80. 3 backends en los 8081, 8082 y 8083.
 
 
-## Archivos HTML: Para modificar los archivos html que muestra cada backend, modificar la parte
+## Archivos HTML: 
+
+Para modificar los archivos html que muestra cada backend, modificar la parte
 
 root /var/www/backend1;
 
