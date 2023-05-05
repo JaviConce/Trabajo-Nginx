@@ -67,7 +67,7 @@ También puedes cambiar los html existentes.
 # Notificaciónes:
 Junto a los logs, en la carpeta "nginx" se encuentra un script de python llamado listener_notify.py.
 
-Durante su ejecución, aprovecha los archivos backend1.log, backend2.log y backend3.log. Estos archivos se usaban en la demo para ver cómo se habían balanceado las peticiones en cada búsqueda.
+Al ejecutarlo, aprovecha los archivos backend1.log, backend2.log y backend3.log para realizar las notificaciones al sistema. Estos archivos se usaban en la demo para ver cómo se habían balanceado las peticiones en cada búsqueda.
 
 Consisten en que cada vez que llega una petición a un backend, este añade una línea a su respectivo log como la siguiente:
 
