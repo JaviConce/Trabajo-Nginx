@@ -1,0 +1,14 @@
+server {
+    listen 8083;
+
+    root /var/www/backend3;
+    index index.html;
+
+    access_log /var/log/nginx/backend3.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+
+        add_header X-Count $request_id;
+    }
+}

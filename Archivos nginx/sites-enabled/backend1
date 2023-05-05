@@ -1,0 +1,14 @@
+server {
+    listen 8081;
+
+    root /var/www/backend1;
+    index index.html;
+
+    access_log /var/log/nginx/backend1.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+
+        add_header X-Count $request_id;
+    }
+}

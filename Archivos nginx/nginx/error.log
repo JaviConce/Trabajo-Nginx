@@ -1,0 +1,49 @@
+2023/03/19 12:21:21 [notice] 12919#12919: signal process started
+2023/03/19 12:23:36 [notice] 13042#13042: signal process started
+2023/03/19 12:28:32 [notice] 13157#13157: signal process started
+2023/03/19 12:31:39 [emerg] 13189#13189: host not found in upstream "backend1" in /etc/nginx/sites-enabled/frontend:17
+2023/03/19 12:36:25 [notice] 13226#13226: signal process started
+2023/03/19 12:46:49 [notice] 13690#13690: signal process started
+2023/03/19 12:48:36 [notice] 13825#13825: signal process started
+2023/03/19 12:50:04 [emerg] 13861#13861: "http" directive is not allowed here in /etc/nginx/sites-enabled/frontend:1
+2023/03/19 12:50:19 [notice] 13870#13870: signal process started
+2023/03/19 12:50:47 [notice] 13883#13883: signal process started
+2023/03/19 12:59:29 [emerg] 14225#14225: invalid URL prefix in /etc/nginx/sites-enabled/frontend:11
+2023/03/19 13:00:00 [notice] 14260#14260: signal process started
+2023/03/19 13:00:47 [error] 14261#14261: *7 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:01:15 [notice] 14324#14324: signal process started
+2023/03/19 13:02:04 [notice] 14385#14385: signal process started
+2023/03/19 13:03:07 [notice] 14510#14510: signal process started
+2023/03/19 13:03:51 [notice] 14558#14558: signal process started
+2023/03/19 13:04:15 [notice] 14607#14607: signal process started
+2023/03/19 13:04:25 [notice] 14620#14620: signal process started
+2023/03/19 13:05:43 [error] 14696#14696: *1 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:05:46 [error] 14696#14696: *1 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:05:53 [error] 14696#14696: *1 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:06:30 [error] 14696#14696: *6 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:06:46 [error] 14696#14696: *6 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:07:10 [error] 14696#14696: *6 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:08:16 [error] 14696#14696: *11 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2023/03/19 13:18:19 [notice] 15350#15350: signal process started
+2023/03/19 13:18:23 [error] 15351#15351: *3 directory index of "/var/www/tutorial/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", host: "backend"
+2023/03/19 13:18:26 [error] 15351#15351: *5 directory index of "/var/www/tutorial/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", host: "backend"
+2023/03/19 13:18:30 [error] 15351#15351: *7 directory index of "/var/www/tutorial/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", host: "backend"
+2023/03/19 13:19:40 [notice] 15377#15377: signal process started
+2023/03/19 13:21:46 [notice] 15464#15464: signal process started
+2023/03/19 13:24:14 [notice] 15570#15570: signal process started
+2023/03/19 13:24:17 [notice] 15576#15576: signal process started
+2023/03/19 13:26:23 [notice] 15689#15689: signal process started
+2023/03/19 13:28:18 [notice] 15764#15764: signal process started
+2023/03/19 13:29:19 [notice] 15835#15835: signal process started
+2023/03/19 13:46:09 [notice] 16767#16767: signal process started
+2023/03/19 13:53:39 [notice] 17084#17084: signal process started
+2023/03/19 14:05:24 [notice] 17260#17260: signal process started
+2023/03/19 14:34:22 [notice] 18928#18928: signal process started
+2023/03/19 14:44:35 [notice] 19167#19167: signal process started
+2023/03/19 15:04:44 [notice] 24627#24627: signal process started
+2023/03/19 15:16:24 [notice] 25020#25020: signal process started
+2023/03/19 15:16:53 [error] 25021#25021: *7 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8083/", host: "localhost"
+2023/03/19 15:18:53 [notice] 25164#25164: signal process started
+2023/03/19 15:28:13 [notice] 25577#25577: signal process started
+2023/03/19 15:28:14 [error] 25578#25578: *319 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8083/", host: "localhost"
+2023/03/19 15:28:26 [error] 25578#25578: *386 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8083/", host: "localhost"

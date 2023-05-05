@@ -1,0 +1,27 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name localhost;
+ 
+    root /var/www/tutorial;
+    index index.html;
+   
+    location / {
+	try_files $uri $uri/ =404;
+	proxy_pass http://backend;
+    }
+
+ 
+}
+
+upstream backend {
+    #ip_hash; #Si un servidor falla, las peticiones se repartirán correctamente
+    #least_conn;
+    server 127.0.0.1:8081;
+    server 127.0.0.1:8082;
+    server 127.0.0.1:8083; #fail_timeout=5s;
+
+    #El balanceo es round robin por defecto (En orden secuencial)
+    
+}
+
