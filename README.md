@@ -53,7 +53,7 @@ Frontend en el puerto 80. 3 backends en los 8081, 8082 y 8083.
 
 ## Archivos HTML: 
 
-Para modificar los archivos html que muestra cada backend, modificar la parte
+Para modificar los archivos html que muestra cada backend, modificar la parte de los backends:
 
 root /var/www/backend1;
 
