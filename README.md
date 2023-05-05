@@ -22,7 +22,7 @@
 - copiar contenido de la carpeta nginx en /var/log/nginx
 
 
-##Archivos para servidores backend y frontend:
+## Archivos para servidores backend y frontend:
 - copiar contenido de sites-enabled en /etc/nginx/sites-enabled
 
 
@@ -53,7 +53,9 @@ Frontend en el puerto 80. 3 backends en los 8081, 8082 y 8083.
 ## Archivos HTML: Para modificar los archivos html que muestra cada backend, modificar la parte
 
 root /var/www/backend1;
+
     index index.html;
+    
     
 Indicando el directorio y el archivo, respectivamente.
 
