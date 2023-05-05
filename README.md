@@ -55,11 +55,10 @@ Frontend en el puerto 80. 3 backends en los 8081, 8082 y 8083.
 
 root /var/www/backend1;
 
-    index index.html;
+index index.html;
     
     
 Indicando el directorio y el archivo, respectivamente.
-
 También puedes cambiar los html existentes.
 
 
