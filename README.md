@@ -78,3 +78,7 @@ Consisten en que cada vez que llega una petición a un backend, este añade una 
 Esto es la información de la petición. Lo más importante es el usuario que la ha realizado (127.0.0.1 en este caso), y la línea de solicitud ("GET / HTTP/1.0", donde GET es el método HTTP utilizado, / es el recurso que se solicita, en este caso es la página de inicio o raíz del sitio web, y HTTP/1.0 es la versión del protocolo).
 
 El script de python consiste en esperar a que estos archivos se modifiquen, es decir, a que un backend haya recibido una petición. Cuando ocurra, leerá la nueva línea (la nueva petición), y obtendrá los datos necesarios de ella. Después, hará el respectivo notify-send.
+
+## Enlace al vídeo
+
+https://pruebasaluuclm-my.sharepoint.com/:f:/g/personal/adrian_carrasco2_alu_uclm_es/EofCawm-q5pJt1ujvC6ZIWYBQOT520X-MOJqInVBuH64TA?e=N0tbFs
